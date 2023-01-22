@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2593288c-8cda-4850-9773-6ce427c7ee63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/CommandReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/EnumCommandReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/InputView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/InvalidCommandException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/InvalidNumberInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/commandReader/AddCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/commandReader/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/commandReader/PrintAllCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/commandReader/PrintSpecificCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/contactManager/commandReader/QuitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/contactManger/ContactTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/contactManger/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/contactManger/ManagerTest.java" afterDir="false" />
+    <list default="true" id="2593288c-8cda-4850-9773-6ce427c7ee63" name="Changes" comment="feat: contact program">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +96,7 @@
       <recent name="org.contactManager.step1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org" />
       <recent name="$PROJECT_DIR$/src/main/java/org/contactManager" />
     </key>
   </component>
@@ -223,11 +196,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674285430852</updated>
-      <workItem from="1674285432311" duration="15640000" />
+      <workItem from="1674285432311" duration="16424000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: contact program">
+      <created>1674304409533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674304409533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: contact program" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: contact program" />
   </component>
 </project>

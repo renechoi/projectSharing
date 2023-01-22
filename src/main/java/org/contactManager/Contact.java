@@ -11,6 +11,10 @@ public class Contact {
         this.birth = birth;
     }
 
+    public boolean matches(String nameRequested) {
+        return this.name.equals(nameRequested);
+    }
+
     public void show() {
         System.out.printf(String.format("""
                 <전화번호부>

@@ -19,7 +19,7 @@ public class Manager {
         String phoneNumber = InputView.getPhoneNumber();
         String birth = String.valueOf(InputView.getDobYear());
 
-        contacts.add(new Contact(name,phoneNumber,birth));
+        contacts.add(new Contact(name, phoneNumber, birth));
         System.out.println("추가되었습니다");
     }
 
@@ -31,16 +31,12 @@ public class Manager {
         String nameRequested = InputView.getName("검색할");
 
         contacts.stream()
-                .filter(contact-> contact.getName().equals(nameRequested))
+                .filter(contact -> contact.matches(nameRequested))
                 .findFirst()
-                .orElseThrow(()->new IllegalArgumentException("찾는 이름이 없습니다!"))
+                .orElseThrow(() -> new IllegalArgumentException("찾는 이름이 없습니다!"))
                 .show();
     }
 
     public void quit() {
-    }
-
-    public List<Contact> getContacts() {
-        return contacts;
     }
 }
