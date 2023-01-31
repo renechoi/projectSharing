@@ -13,7 +13,7 @@ public class Main {
     //5. 수정, 삭제 구현
     //6. 정렬 구현
 
-
+    //test
     public static void main(String[] args) {
 
         Manager manager = new Manager();
